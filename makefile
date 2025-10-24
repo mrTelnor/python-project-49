@@ -8,7 +8,11 @@ init:
 
 # Команда для запуска программы
 brain-games:
-	uv run brain_games
+	uv run brain-games
+
+# Команда для запуска отдельно brain_even
+brain-even:
+	uv run brain-even
 
 # Команда для сборки пакета
 build:
@@ -16,4 +20,4 @@ build:
 
 # Команда для установки собранного пакета в систему
 package-install:
-	uv tool install dist/*.whl
+	uv tool install --force dist/*.whl
