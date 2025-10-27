@@ -158,3 +158,33 @@ Question: 2 8 14 20 26 .. 38
 Your answer: 32
 Correct!
 Congratulations, Nik!
+
+# Запуск игры простое ли число?
+brain-prime
+
+Welcome to the Brain Games!
+May I have your name? Nik
+Hello, Nik!
+Answer "yes" if given number is prime. Otherwise answer "no".
+Question: 129
+Your answer: yes
+'yes' is wrong answer ;(. Correct answer was 'no'.
+Let's try again, Nik!
+
+# Пример победы в игре
+brain-prime
+
+Welcome to the Brain Games!
+May I have your name? Nik
+Hello, Nik!
+Answer "yes" if given number is prime. Otherwise answer "no".
+Question: 205
+Your answer: no
+Correct!
+Question: 44
+Your answer: no
+Correct!
+Question: 450
+Your answer: no
+Correct!
+Congratulations, Nik!

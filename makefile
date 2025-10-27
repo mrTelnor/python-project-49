@@ -25,6 +25,9 @@ brain-gcd:
 brain-progression:
 	uv run brain-progression
 
+brain-prime:
+	uv run brain-prime
+
 # Команда для сборки пакета
 build:
 	uv build
