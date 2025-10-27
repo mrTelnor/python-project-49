@@ -15,7 +15,7 @@ brain-even:
 	uv run brain-even
 
 # Команда для запуска отдельно brain_calc
-brain-even:
+brain-calc:
 	uv run brain-calc
 
 # Команда для сборки пакета
