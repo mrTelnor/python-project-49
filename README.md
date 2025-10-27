@@ -33,7 +33,9 @@ Installed 1 package in 4ms
 Installed 6 executables: brain-calc, brain-even, brain-games, brain-gcd, brain-prime, brain-progression
 
 # Запуск основной игры (единая точка входа)
+# UPD! Сделан дегрейд для прохождения тестов. Общей точки входа больше нет.
 brain-games
+
 Welcome to the Brain Games!
 May I have your name? Kit Wolf
 Hello, Kit Wolf!
