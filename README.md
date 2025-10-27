@@ -98,3 +98,33 @@ Question: 19 * 20
 Your answer: 380
 Correct!
 Congratulations, Bob!
+
+# Запуск игры наибольший общий делитель
+brain-gcd
+
+Welcome to the Brain Games!
+May I have your name? Nik
+Hello, Nik!
+Find the greatest common divisor of given numbers.
+Question: 11 100
+Your answer: 4
+'4' is wrong answer ;(. Correct answer was '1'.
+Let's try again, Nik!
+
+# Пример победы в игре
+brain-gcd
+
+Welcome to the Brain Games!
+May I have your name? Nik
+Hello, Nik!
+Find the greatest common divisor of given numbers.
+Question: 24 5
+Your answer: 1
+Correct!
+Question: 12 16
+Your answer: 4
+Correct!
+Question: 67 60
+Your answer: 1
+Correct!
+Congratulations, Nik!

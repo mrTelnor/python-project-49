@@ -1,12 +1,15 @@
 import prompt
+from brain_games.cli import welcome_user
 
 
 ROUNDS_TO_WIN = 3
 
 
-def run_game(game):
-    # Управляет процессом игры
-    name = game.welcome_user_func()
+def run_game(game, name=None):
+    if name == None:
+        name = welcome_user()
+    
+
     print(game.DESCRIPTION)
 
     correct_answers_count = 0

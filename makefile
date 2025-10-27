@@ -18,6 +18,10 @@ brain-even:
 brain-calc:
 	uv run brain-calc
 
+# Команда для запуска отдельно brain_gcd
+brain-calc:
+	uv run brain-gcd
+
 # Команда для сборки пакета
 build:
 	uv build
