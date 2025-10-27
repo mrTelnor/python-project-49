@@ -128,3 +128,33 @@ Question: 67 60
 Your answer: 1
 Correct!
 Congratulations, Nik!
+
+# Запуск игры арифметическая прогрессия
+brain-progression
+
+Welcome to the Brain Games!
+May I have your name? Nik
+Hello, Nik!
+What number is missing in the progression?
+Question: 5 10 15 20 .. 30 35 40 45 50
+Your answer: 56
+'56' is wrong answer ;(. Correct answer was '25'.
+Let's try again, Nik!
+
+# Пример победы в игре
+brain-progression
+
+Welcome to the Brain Games!
+May I have your name? Nik
+Hello, Nik!
+What number is missing in the progression?
+Question: 10 11 .. 13 14 15
+Your answer: 12
+Correct!
+Question: 8 12 16 .. 24
+Your answer: 20
+Correct!
+Question: 2 8 14 20 26 .. 38
+Your answer: 32
+Correct!
+Congratulations, Nik!
