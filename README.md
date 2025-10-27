@@ -68,3 +68,33 @@ Question: 97
 Your answer: no
 Correct!
 Congratulations, Kit the Winner!
+
+# Запуск игры калькулятор
+brain-calc
+
+Welcome to the Brain Games!
+May I have your name? Bob
+Hello, Bob!
+What is the result of the expression?
+Question: 2 + 2
+Your answer: 3
+'3' is wrong answer ;(. Correct answer was '4'.
+Let's try again, Bob!
+
+# Пример победы в игре
+brain-calc
+
+Welcome to the Brain Games!
+May I have your name? Bob
+Hello, Bob!
+What is the result of the expression?
+Question: 3 * 10
+Your answer: 30
+Correct!
+Question: 20 - 20
+Your answer: 0
+Correct!
+Question: 19 * 20
+Your answer: 380
+Correct!
+Congratulations, Bob!
