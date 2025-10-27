@@ -14,6 +14,10 @@ brain-games:
 brain-even:
 	uv run brain-even
 
+# Команда для запуска отдельно brain_calc
+brain-even:
+	uv run brain-calc
+
 # Команда для сборки пакета
 build:
 	uv build
