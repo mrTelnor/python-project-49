@@ -25,19 +25,30 @@ Successfully built dist/python_project_49-0.1.1-py3-none-any.whl
 make package-install
 
 uv tool install --force dist/*.whl
-Resolved 2 packages in 11ms
-Prepared 1 package in 17ms
-Uninstalled 1 package in 0.67ms
-Installed 1 package in 3ms
+Resolved 2 packages in 147ms
+Prepared 1 package in 28ms
+Uninstalled 1 package in 1ms
+Installed 1 package in 4ms
  ~ python-project-49==0.1.1 (from file:///mnt/d/Python/Hexlet/python-project-49/dist/python_project_49-0.1.1-py3-none-any.whl)
-Installed 2 executables: brain-even, brain-games
+Installed 6 executables: brain-calc, brain-even, brain-games, brain-gcd, brain-prime, brain-progression
 
-# Запуск основной игры
+# Запуск основной игры (единая точка входа)
 brain-games
-
 Welcome to the Brain Games!
-May I have your name? Kit
-Hello, Kit!
+May I have your name? Kit Wolf
+Hello, Kit Wolf!
+
+Choose a game:
+1 - Calc (калькулятор)
+2 - Even (проверка на чётность)
+3 - GCD (наибольший общий делитель)
+4 - Prime (простое ли число?)
+5 - Progression (арифметическая прогрессия)
+0 - Exit
+Your choice: 3
+Find the greatest common divisor of given numbers.
+Question: 44 78
+Your answer:
 
 # Запуск игры проверки чётности
 brain-even

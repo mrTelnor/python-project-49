@@ -1,15 +1,16 @@
 import random
 
-
 DESCRIPTION = "What number is missing in the progression?"
 
 
 PROGRESSION_LENGTH_MIN = 5
 PROGRESSION_LENGTH_MAX = 10
 
+
 def generate_progression(length, start, step):
     # Создаёт арифметическую прогрессию заданной длины
     return [start + i * step for i in range(length)]
+
 
 def generate_round():
     # Генерирует вопрос и правильный ответ

@@ -1,5 +1,4 @@
 import random
-from brain_games.cli import welcome_user
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 

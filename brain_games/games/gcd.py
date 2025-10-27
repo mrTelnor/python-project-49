@@ -3,6 +3,7 @@ from math import gcd
 
 DESCRIPTION = "Find the greatest common divisor of given numbers."
 
+
 def generate_round():
     # Генерирует вопрос и правильный ответ
     number1 = random.randint(1, 100)
