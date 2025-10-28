@@ -1,3 +1,7 @@
+[![Actions Status](https://github.com/mrTelnor/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/mrTelnor/python-project-49/actions)
+
+
+
 # Синхронизация проекта и установка зависимостей
 make install
 

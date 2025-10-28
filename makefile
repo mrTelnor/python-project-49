@@ -2,7 +2,7 @@
 install:
 	uv sync
 
-# Команда для проверки качества кода
+# Команда для проверки качества написания кода
 init:
 	uv run ruff check brain_games
 
