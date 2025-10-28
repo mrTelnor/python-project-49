@@ -1,6 +1,5 @@
 [![Actions Status](https://github.com/mrTelnor/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/mrTelnor/python-project-49/actions)
-
-
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mrTelnor_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=mrTelnor_python-project-49)
 
 # Синхронизация проекта и установка зависимостей
 make install
