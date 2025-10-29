@@ -10,7 +10,17 @@ It is a collection of 5 math-related games designed to challenge and improve you
 - Checking if a number is prime;
 - Inserting a number into an arithmetic progression;
 
+## Requirements
+
+- Python 3.10 or higher  
+- [uv](https://docs.astral.sh/uv/) package manager installed 
+
 ## Installation
+
+If you don't have **uv** installed yet, install it first:
+```
+pip install uv
+```
 
 Use this commands to install games:
 1. Install dependencies: 
@@ -53,7 +63,10 @@ Guess the missing number in a progression:
 brain-progression
 ```
 
-## Demonstrations
+## Installation and gameplay demo
+
+Install Brain Games:
+[![asciicast](https://asciinema.org/a/EC2ZJ3umhTBOuP6XGQPn7idR1.svg)](https://asciinema.org/a/EC2ZJ3umhTBOuP6XGQPn7idR1)
 
 ```
 brain-games
