@@ -27,6 +27,7 @@ make package-install
 ```
 
 After this step, the games will be available as standalone CLI commands, no need to use uv run.
+
 Welcome message:
 ```
 brain-games
@@ -54,3 +55,7 @@ brain-progression
 
 ## Demonstrations
 
+```
+brain-games
+```
+[![asciicast](https://asciinema.org/a/tM8ggrnP6lD12mc8JrjX7SRZa.svg)](https://asciinema.org/a/tM8ggrnP6lD12mc8JrjX7SRZa)
