@@ -58,4 +58,4 @@ brain-progression
 ```
 brain-games
 ```
-[![asciicast](https://asciinema.org/a/tM8ggrnP6lD12mc8JrjX7SRZa.svg)](https://asciinema.org/a/tM8ggrnP6lD12mc8JrjX7SRZa)
+<img src="https://asciinema.org/a/tM8ggrnP6lD12mc8JrjX7SRZa.svg" width="200"/>
