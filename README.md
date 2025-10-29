@@ -1,206 +1,56 @@
 [![Actions Status](https://github.com/mrTelnor/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/mrTelnor/python-project-49/actions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mrTelnor_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=mrTelnor_python-project-49)
 
-# Синхронизация проекта и установка зависимостей
+## Description
+It is a collection of 5 math-related games designed to challenge and improve your arithmetic skills. The games include:
+
+- Providing the result of a calculation (multiplication, addition, subtraction);
+- Answering if a number is even;
+- Finding the greatest common divisor of two numbers;
+- Checking if a number is prime;
+- Inserting a number into an arithmetic progression;
+
+## Installation
+
+Use this commands to install games:
+1. Install dependencies: 
+```
 make install
-
-uv sync
-Resolved 3 packages in 5ms
-Audited 3 packages in 12ms
-
-# Проверка качества кода
-make init
-
-uv run ruff check brain_games
-All checks passed!
-# (если ошибки есть, они выводятся здесь)
-
-# Сборка пакета
+```
+2. Build the package: 
+```
 make build
-
-uv build
-Building source distribution...
-Building wheel from source distribution...
-Successfully built dist/python_project_49-0.1.1.tar.gz
-Successfully built dist/python_project_49-0.1.1-py3-none-any.whl
-
-# Установка пакета в систему
+```
+3. Install the package globally:
+```
 make package-install
+```
 
-uv tool install --force dist/*.whl
-Resolved 2 packages in 147ms
-Prepared 1 package in 28ms
-Uninstalled 1 package in 1ms
-Installed 1 package in 4ms
- ~ python-project-49==0.1.1 (from file:///mnt/d/Python/Hexlet/python-project-49/dist/python_project_49-0.1.1-py3-none-any.whl)
-Installed 6 executables: brain-calc, brain-even, brain-games, brain-gcd, brain-prime, brain-progression
-
-# Запуск основной игры (единая точка входа)
-# UPD! Сделан дегрейд для прохождения тестов. Общей точки входа больше нет.
+After this step, the games will be available as standalone CLI commands, no need to use uv run.
+Welcome message:
+```
 brain-games
-
-Welcome to the Brain Games!
-May I have your name? Kit Wolf
-Hello, Kit Wolf!
-
-Choose a game:
-1 - Calc (калькулятор)
-2 - Even (проверка на чётность)
-3 - GCD (наибольший общий делитель)
-4 - Prime (простое ли число?)
-5 - Progression (арифметическая прогрессия)
-0 - Exit
-Your choice: 3
-Find the greatest common divisor of given numbers.
-Question: 44 78
-Your answer:
-
-# Запуск игры проверки чётности
-brain-even
-
-Welcome to the Brain Games!
-May I have your name? Kit
-Hello, Kit!
-Answer "yes" if the number is even, otherwise answer "no".
-Question: 31
-Your answer: yes
-'yes' is wrong answer ;(. Correct answer was 'no'.
-Let's try again, Kit!
-
-# Пример победы в игре
-brain-even
-
-Welcome to the Brain Games!
-May I have your name? Kit the Winner
-Hello, Kit the Winner!
-Answer "yes" if the number is even, otherwise answer "no".
-Question: 51
-Your answer: no
-Correct!
-Question: 79
-Your answer: no
-Correct!
-Question: 97
-Your answer: no
-Correct!
-Congratulations, Kit the Winner!
-
-# Запуск игры калькулятор
+```
+Simple arithmetic calculator:
+```
 brain-calc
-
-Welcome to the Brain Games!
-May I have your name? Bob
-Hello, Bob!
-What is the result of the expression?
-Question: 2 + 2
-Your answer: 3
-'3' is wrong answer ;(. Correct answer was '4'.
-Let's try again, Bob!
-
-# Пример победы в игре
-brain-calc
-
-Welcome to the Brain Games!
-May I have your name? Bob
-Hello, Bob!
-What is the result of the expression?
-Question: 3 * 10
-Your answer: 30
-Correct!
-Question: 20 - 20
-Your answer: 0
-Correct!
-Question: 19 * 20
-Your answer: 380
-Correct!
-Congratulations, Bob!
-
-# Запуск игры наибольший общий делитель
+```
+Check if a number is even:
+```
+brain-even
+```
+Find the greatest common divisor:
+```
 brain-gcd
-
-Welcome to the Brain Games!
-May I have your name? Nik
-Hello, Nik!
-Find the greatest common divisor of given numbers.
-Question: 11 100
-Your answer: 4
-'4' is wrong answer ;(. Correct answer was '1'.
-Let's try again, Nik!
-
-# Пример победы в игре
-brain-gcd
-
-Welcome to the Brain Games!
-May I have your name? Nik
-Hello, Nik!
-Find the greatest common divisor of given numbers.
-Question: 24 5
-Your answer: 1
-Correct!
-Question: 12 16
-Your answer: 4
-Correct!
-Question: 67 60
-Your answer: 1
-Correct!
-Congratulations, Nik!
-
-# Запуск игры арифметическая прогрессия
-brain-progression
-
-Welcome to the Brain Games!
-May I have your name? Nik
-Hello, Nik!
-What number is missing in the progression?
-Question: 5 10 15 20 .. 30 35 40 45 50
-Your answer: 56
-'56' is wrong answer ;(. Correct answer was '25'.
-Let's try again, Nik!
-
-# Пример победы в игре
-brain-progression
-
-Welcome to the Brain Games!
-May I have your name? Nik
-Hello, Nik!
-What number is missing in the progression?
-Question: 10 11 .. 13 14 15
-Your answer: 12
-Correct!
-Question: 8 12 16 .. 24
-Your answer: 20
-Correct!
-Question: 2 8 14 20 26 .. 38
-Your answer: 32
-Correct!
-Congratulations, Nik!
-
-# Запуск игры простое ли число?
+```
+Check if a number is prime:
+```
 brain-prime
+```
+Guess the missing number in a progression:
+```
+brain-progression
+```
 
-Welcome to the Brain Games!
-May I have your name? Nik
-Hello, Nik!
-Answer "yes" if given number is prime. Otherwise answer "no".
-Question: 129
-Your answer: yes
-'yes' is wrong answer ;(. Correct answer was 'no'.
-Let's try again, Nik!
+## Demonstrations
 
-# Пример победы в игре
-brain-prime
-
-Welcome to the Brain Games!
-May I have your name? Nik
-Hello, Nik!
-Answer "yes" if given number is prime. Otherwise answer "no".
-Question: 205
-Your answer: no
-Correct!
-Question: 44
-Your answer: no
-Correct!
-Question: 450
-Your answer: no
-Correct!
-Congratulations, Nik!
